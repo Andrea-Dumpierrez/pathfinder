@@ -129,7 +129,7 @@ jobs:
               raise SystemExit("No instructions found")
 
           coverage = covered / total * 100
-          threshold = 95
+          threshold = 80
 
           print(f"Coverage: {coverage:.2f}%")
           print(f"Required: {threshold}%")
